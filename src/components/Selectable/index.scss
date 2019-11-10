@@ -1,0 +1,76 @@
+$event-bg: #b2b2b2;
+$event-border-radius: 4px;
+$event-border: rgba(0,0,0,0);
+$event-color: #fdfdfd;
+
+$calendar-border: rgba(0,0,0,0);
+$cell-border:rgba(0,0,0,0);
+$border-color:rgba(0,0,0,0);
+$today-highlight-bg:rgba(0,0,0,0);
+$time-selection-bg-color:rgba(235, 74, 112, 0.23);
+
+@import '~react-big-calendar/lib/sass/styles';
+@import '../../scss/fonts.scss';
+@import '../../scss/color.scss';
+
+.rbc-calendar{
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+.rbc-time-header{
+  display: none;
+}
+
+.rbc-day-slot{
+  .rbc-timeslot-group{
+    ::after{
+      content:"";
+      display: inline-block;
+      vertical-align: top;
+      width: 100%;
+      border-top: 1px solid $primary-4;
+      opacity: 0.3;
+    }
+    
+    &:nth-child(4n-3){::after{
+      opacity: 0.5;
+    }}
+  }
+}
+
+.rbc-time-slot{
+  .rbc-label{
+    opacity: 0.7;
+    font-size: 7px;
+    color: $primary-4;
+    vertical-align: top;
+  }
+}
+
+.rbc-slot-selection{
+  width: calc(100% - 14px);
+  left:7px;
+}
+
+.rbc-day-slot {
+  margin-top: 2px;
+  .rbc-events-container {
+    width: calc(100% - 16px);
+    overflow: hidden;
+    margin: 0 8px;
+  }
+  .rbc-event{
+    margin-top: 2px;
+    padding: 6px;
+  }
+}
+
+.rbc-timeslot-group {
+  min-height: 24px;
+}

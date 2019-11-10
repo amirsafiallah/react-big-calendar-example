@@ -1,0 +1,802 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+
+@mixin Headline-1-Style {
+  font-family: OpenSansLight;
+  font-size: 96px;
+  letter-spacing: -1.5px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Headng-2-Style-Semibold {
+  font-family: OpenSansSemiBold;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.37;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: $background;
+}
+
+@mixin Headline-2-Style-Semibold {
+  font-family: OpenSansSemiBold;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.37;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: $Landing_Black;
+}
+
+@mixin Headline-2-Style {
+  font-family: OpenSansLight;
+  font-size: 60px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Heading-2-Style-Regular {
+  font-family: OpenSansSemiBold;
+  font-size: 60px;
+  line-height: 1.37;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: $background;
+}
+
+@mixin Heading-3-Style {
+  font-family: OpenSans;
+  font-size: 48px;
+  line-height: 1.35;
+  text-align: left;
+  color: $Logo_Green;
+}
+
+@mixin Heading-3-Style {
+  font-family: OpenSans;
+  font-size: 48px;
+  line-height: 1.35;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Headline-3-Style {
+  font-family: OpenSans;
+  font-size: 48px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Heading-4-Style-SemiBold {
+  font-family: OpenSans;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: left;
+  color: $Landing_Black;
+}
+
+@mixin Heading-4-Style {
+  font-family: OpenSans;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: $background;
+}
+
+@mixin Text-Style {
+  font-family: OpenSans;
+  font-size: 34px;
+  line-height: 2.94;
+  text-align: center;
+  color: $primary-4;
+}
+
+@mixin Heading-4-Style {
+  font-family: OpenSans;
+  font-size: 34px;
+  line-height: 1.35;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: $Logo_Purple;
+}
+
+@mixin Heading-4-Style {
+  font-family: OpenSans;
+  font-size: 34px;
+  line-height: 1.76;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Heading-4-Style {
+  font-family: OpenSans;
+  font-size: 34px;
+  line-height: 1.35;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Heading-4-Style {
+  font-family: OpenSans;
+  font-size: 34px;
+  line-height: 1.35;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: $background;
+}
+
+@mixin Heading-4-Style {
+  font-family: OpenSans;
+  font-size: 34px;
+  line-height: 1.35;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: $Landing_Black;
+}
+
+@mixin Headline-4-Style {
+  font-family: OpenSans;
+  font-size: 34px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Heading-5-Style-Semibold {
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.67;
+  letter-spacing: 0.18px;
+  text-align: left;
+  color: $Logo_Purple;
+}
+
+@mixin Heading-5-Style-Semibold {
+  font-family: OpenSans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.38;
+  text-align: center;
+  color: $background;
+}
+
+@mixin Heading-5-Style {
+  font-family: OpenSansSemiBold;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 2.08;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: $Landing_Black;
+}
+
+@mixin Headline-5-Style {
+  font-family: OpenSans;
+  font-size: 24px;
+  line-height: 1.67;
+  letter-spacing: 0.18px;
+  text-align: left;
+  color: $Landing_Black;
+}
+
+@mixin Headline-5-Style {
+  font-family: OpenSans;
+  font-size: 24px;
+  line-height: 1.38;
+  text-align: left;
+  color: $Landing_Black;
+}
+
+@mixin Headline-5-Style {
+  font-family: OpenSans;
+  font-size: 24px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Heading-5-Style {
+  font-family: OpenSansSemiBold;
+  font-size: 24px;
+  line-height: 2.08;
+  letter-spacing: -0.2px;
+  text-align: left;
+  color: $Landing_Black;
+}
+
+@mixin Heading-6-Style-Bold {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0.19px;
+  text-align: right;
+  color: $Landing_Black;
+}
+
+@mixin Headline-6-Style {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: $secondary-3;
+}
+
+@mixin Headline-6-Style {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: $secondary-3;
+}
+
+@mixin Headline-6-Style {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Heading-6-Style {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: $primary-4;
+}
+
+@mixin Heading-6-Style {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Heading-6-Style {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 1.07px;
+  text-align: center;
+  color: $Logo-blue;
+}
+
+@mixin Heading-6-Style {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 1.07px;
+  text-align: left;
+  color: $Landing_Black;
+}
+
+@mixin Heading-6-Style {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 1.07px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Heading-6-Style {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 1.07px;
+  text-align: center;
+  color: $primary-4;
+}
+
+@mixin Heading-6-Style {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: $Landing_Black;
+}
+
+@mixin Heading-6-Style {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.19px;
+  text-align: right;
+  color: $Logo_Purple;
+}
+
+@mixin Heading-6-Style {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.19px;
+  text-align: right;
+  color: $Landing_Black;
+}
+
+@mixin Heading-6-Style-regular {
+  font-family: OpenSans;
+  font-size: 20px;
+  line-height: 1.35;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: $Landing_Black;
+}
+
+@mixin Heading-6-Style-Light {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.35;
+  letter-spacing: 1.07px;
+  text-align: left;
+  color: $Landing_Black;
+}
+
+@mixin Heading-6-Style-Light {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.35;
+  letter-spacing: 1.07px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Subtitle-1-Style {
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: $primary-4;
+}
+
+@mixin Subtitle-1-Style {
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: $secondary-3;
+}
+
+@mixin Subtitle-1-Style {
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: $secondary-3;
+}
+
+@mixin Subtitle-1-Style {
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Body-1-Style {
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.44px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Body-1-Style {
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.44px;
+  text-align: center;
+  color: $primary-4;
+}
+
+@mixin Body-1-Style {
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: $secondary-3;
+}
+
+@mixin Body-1-Style {
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Body-1-Style {
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: $secondary-3;
+}
+
+@mixin Body-1-Style {
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Subtitle-2-style {
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.71;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: $primary-4;
+}
+
+@mixin Subtitle-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.71;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: $Logo_Purple;
+}
+
+@mixin Subtitle-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.71;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: $secondary-1;
+}
+
+@mixin Subtitle-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.71;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Button-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 0.75px;
+  text-align: center;
+  color: #748ef9;
+}
+
+@mixin Button-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color: $background;
+}
+
+@mixin Button-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 0.75px;
+  text-align: center;
+  color: $background;
+}
+
+@mixin Button-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color: $background;
+}
+
+@mixin body-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: $Landing_Black;
+}
+
+@mixin Button-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: $background;
+}
+
+@mixin Body-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: $Landing_Black;
+}
+
+@mixin Body-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: $primary-4;
+}
+
+@mixin Body-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: $primary-4;
+}
+
+@mixin Body-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Body-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: $error;
+}
+
+@mixin Body-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: $info;
+}
+
+@mixin Body-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: $secondary-3;
+}
+
+@mixin Body-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: $error;
+}
+
+@mixin Body-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: $secondary-3;
+}
+
+@mixin Body-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: $secondary-1;
+}
+
+@mixin Body-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  text-align: center;
+  color: $secondary-1;
+}
+
+@mixin Body-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: $info;
+}
+
+@mixin Body-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: $error;
+}
+
+@mixin Body-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: $secondary-3;
+}
+
+@mixin Body-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: $secondary-1;
+}
+
+@mixin Body-2-Style {
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Caption-Style-Semibold {
+  font-family: OpenSans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: $secondary-1;
+}
+
+@mixin Caption-Style {
+  font-family: OpenSans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: $Logo_Purple;
+}
+
+@mixin Caption-Style {
+  font-family: OpenSans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.42;
+  text-align: left;
+  color: #fdfdfd;
+}
+
+@mixin Caption-Style {
+  font-family: OpenSans;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: $secondary-1;
+}
+
+@mixin Caption-Style {
+  font-family: OpenSans;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: $primary-3;
+}
+
+@mixin Caption-Style {
+  font-family: OpenSans;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: $primary-4;
+}
+
+@mixin Caption-Style {
+  font-family: OpenSans;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: $primary-3;
+}
+
+@mixin Caption-Style {
+  font-family: OpenSans;
+  font-size: 12px;
+  text-align: left;
+  color: #fdfdfd;
+}
+
+@mixin Caption-Style {
+  font-family: OpenSans;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: $secondary-1;
+}
+
+@mixin Caption-Style {
+  font-family: OpenSans;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: $primary-4;
+}
+
+@mixin Overline-Style {
+  font-family: OpenSans;
+  font-size: 10px;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: $primary-4;
+}
